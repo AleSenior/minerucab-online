@@ -3,3 +3,5 @@ Aquí se almacenan y organizan los scripts de definición de la base de datos y 
 Para crear rápidamente la base de datos, desde la carpeta __minerucab-online__ ejecuta el comando:  
 
     psql -U postgres -f database/quickdef.sql
+
+Después, entrar en pgAdmin y ejecutar mockup.sql desde el query tool.
