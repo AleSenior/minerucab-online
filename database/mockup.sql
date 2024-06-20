@@ -1498,151 +1498,151 @@ INSERT INTO PUBLIC.GL_LUGAR(ID, NOMBRE, TIPO, LUGAR_ID) VALUES
 (1497,'Rafael Urdaneta','PAR',356),
 (1498,'Raúl Cuenca','PAR',356);
 
-INSERT INTO PUBLIC.CX_EMPRESA(RIF, NOMBRE, FECHA_FUNDACION, DIRECCION, LUGAR_ID) VALUES
-(1,'TerraMinera C.A.','01-01-1995','Fernando Girón Tovar, Atures, Amazonas',357),
-(2,'OroVeta C.A.','01-01-1995','Luis Alberto Gómez, Atures, Amazonas',358),
-(3,'PiedraBrillante C.A.','01-01-1995','Pahueña, Atures, Amazonas',359),
-(4,'PlataMontaña C.A.','01-01-1995','Platanillal, Atures, Amazonas',360),
-(5,'CobreProfundo C.A.','01-01-1995','La Esmeralda, Alto Orinoco, Amazonas',361),
-(6,'MineralesRicos C.A.','01-01-1995','Huachamacare, Alto Orinoco, Amazonas',362),
-(7,'DiamanteExplora C.A.','01-01-1995','Anaco, Anaco, Anzoátegui',386),
-(8,'TitanioMinero C.A.','01-01-1995','Buena Vista, Anaco, Anzoátegui',387),
-(9,'CarbónNegro C.A.','01-01-1995','San Joaquín, Anaco, Anzoátegui',388),
-(10,'HierroForja C.A.','01-01-1995','Cachipo, Aragua, Anzoátegui',389),
-(11,'ZafiroMinas C.A.','01-01-1995','Aragua, Aragua, Anzoátegui',390),
-(12,'EsmeraldaExcava C.A.','01-01-1995','Bergantín, Bolívar, Anzoátegui',391),
-(13,'RubíSubterráneo C.A.','01-01-1995','Achaguas, Achaguas, Apure',443),
-(14,'JadeMineral C.A.','01-01-1995','Apurito, Achaguas, Apure',444),
-(15,'TopacioOro C.A.','01-01-1995','El Yagual, Achaguas, Apure',445),
-(16,'AmatistaMina C.A.','01-01-1995','Guachara, Achaguas, Apure',446),
-(17,'PerlaMinera C.A.','01-01-1995','Mucuritas, Achaguas, Apure',447),
-(18,'CuarzoCristal C.A.','01-01-1995','Queseras del Medio, Achaguas, Apure',448),
-(19,'GranitoRoca C.A.','01-01-1995','Bolívar, Bolívar, Aragua',469),
-(20,'CalcitaMineral C.A.','01-01-1995','Camatagua, Camatagua, Aragua',470),
-(21,'AzufreVolcán C.A.','01-01-1995','Carmen de Cura, Camatagua, Aragua',471),
-(22,'PlomoMinas C.A.','01-01-1995','Santa Rita, Francisco Linares Alcántara, Aragua',472),
-(23,'ZincExtracción C.A.','01-01-1995','Francisco de Miranda, Francisco Linares Alcántara, Aragua',473),
-(24,'NíquelSubsuelo C.A.','01-01-1995','Monseñor Feliciano González, Francisco Linares Alcántara, Aragua',474),
-(25,'MicaMineral C.A.','01-01-1995','Arismendi, Arismendi, Barinas',519),
-(26,'FeldespatoMina C.A.','01-01-1995','Guadarrama, Arismendi, Barinas',520),
-(27,'BaritaMinera C.A.','01-01-1995','La Unión, Arismendi, Barinas',521),
-(28,'TalcoExcavación C.A.','01-01-1995','San Antonio, Arismendi, Barinas',522),
-(29,'PiritaOro C.A.','01-01-1995','Alfredo Larriva, Barinas, Barinas',523),
-(30,'GalenaMineral C.A.','01-01-1995','Alto Barinas, Barinas, Barinas',524),
-(31,'CVG Industria Venezolana de Aluminio C.A.','29-08-1973','Raúl Leoni, Angostura, Bolívar',561),
-(32,'CVG BAUXILUM, C.A.','01-03-1994','Barceloneta, Angostura, Bolívar',562),
-(33,'CVG Minerven C.A.','01-01-1970','Santa Bárbara, Angostura, Bolívar',563),
-(34,'CVG Carbones del Orinoco, C.A.','06-11-1987','San Francisco, Angostura, Bolívar',564),
-(35,'YesoExcava C.A.','01-01-1995','5 de Julio, Caroní, Bolívar',565),
-(36,'FluoritaMinas C.A.','01-01-1995','Cachamay, Caroní, Bolívar',566),
-(37,'CromitaSubterráneo C.A.','01-01-1995','Bejuma, Bejuma, Carabobo',608),
-(38,'BentonitaMina C.A.','01-01-1995','Canoabo, Bejuma, Carabobo',609),
-(39,'DolomitaMineral C.A.','01-01-1995','Simón Bolívar, Bejuma, Carabobo',610),
-(40,'HalitaSal C.A.','01-01-1995','Belén, Carlos Arvelo, Carabobo',611),
-(41,'GipsitaMinera C.A.','01-01-1995','Güigüe, Carlos Arvelo, Carabobo',612),
-(42,'OlivinoMinas C.A.','01-01-1995','Tacarigua, Carlos Arvelo, Carabobo',613),
-(43,'SerpentinaRoca C.A.','01-01-1995','Cojedes, Anzoátegui, Cojedes',646),
-(44,'SulfuroMineral C.A.','01-01-1995','Juan de Mata Suárez, Anzoátegui, Cojedes',647),
-(45,'SilicatoExcavación C.A.','01-01-1995','Pao de San Juan Bautista, Pao de San Juan Bautista, Cojedes',648),
-(46,'TungstenoMinero C.A.','01-01-1995','Tinaquillo, Tinaquillo, Cojedes',649),
-(47,'VanadioSubsuelo C.A.','01-01-1995','El Baúl, Girardot, Cojedes',650),
-(48,'WolframitaMineral C.A.','01-01-1995','Sucre, Girardot, Cojedes',651),
-(49,'TitanitaOro C.A.','01-01-1995','23 de Enero, Libertador, Distrito Capital',661),
-(50,'RutiloMinas C.A.','01-01-1995','Altagracia, Libertador, Distrito Capital',662),
-(51,'CirconioRoca C.A.','01-01-1995','Antímano, Libertador, Distrito Capital',663),
-(52,'BerilioMineral C.A.','01-01-1995','Candelaria, Libertador, Distrito Capital',664),
-(53,'AntimonioExcava C.A.','01-01-1995','Caricuao, Libertador, Distrito Capital',665),
-(54,'TalcoMinera C.A.','01-01-1995','Catedral, Libertador, Distrito Capital',666),
-(55,'GrafitoMineral C.A.','01-01-1995','Almirante Luis Brión, Antonio Díaz, Delta Amacuro',683),
-(56,'LapislázuliMina C.A.','01-01-1995','Aniceto Lugo, Antonio Díaz, Delta Amacuro',684),
-(57,'TurquesaSubterráneo C.A.','01-01-1995','Curiapo, Antonio Díaz, Delta Amacuro',685),
-(58,'RodocrositaMinas C.A.','01-01-1995','Manuel Renaud, Antonio Díaz, Delta Amacuro',686),
-(59,'SelenitaRoca C.A.','01-01-1995','Padre Barral, Antonio Díaz, Delta Amacuro',687),
-(60,'ApatitaMineral C.A.','01-01-1995','Santos de Abelgas, Antonio Díaz, Delta Amacuro',688),
-(61,'CalcopiritaMinera C.A.','01-01-1995','Capadare, Acosta, Falcón',703),
-(62,'BornitaOro C.A.','01-01-1995','La Pastora, Acosta, Falcón',704),
-(63,'CovellinaMinas C.A.','01-01-1995','Libertador, Acosta, Falcón',705),
-(64,'EspodumenoMineral C.A.','01-01-1995','San Juan de Los Cayos, Acosta, Falcón',706),
-(65,'GalenaPlata C.A.','01-01-1995','Aracua, Bolívar, Falcón',707),
-(66,'HalitaMinera C.A.','01-01-1995','La Peña, Bolívar, Falcón',708),
-(67,'IolitaRoca C.A.','01-01-1995','Chaguaramas, Chaguaramas, Guárico',787),
-(68,'JaspeMineral C.A.','01-01-1995','Camaguán, Camaguán, Guárico',788),
-(69,'KyanitaExcavación C.A.','01-01-1995','Puerto Miranda, Camaguán, Guárico',789),
-(70,'LabradoritaMinas C.A.','01-01-1995','Uverito, Camaguán, Guárico',790),
-(71,'MalaquitaSubsuelo C.A.','01-01-1995','El Socorro, El Socorro, Guárico',791),
-(72,'NefelinaMineral C.A.','01-01-1995','Calabozo, Francisco de Miranda, Guárico',792),
-(73,'ObsidianaOro C.A.','01-01-1995','Caraballeda, Vargas, La Guaira',826),
-(74,'PiritaMinas C.A.','01-01-1995','Carayaca, Vargas, La Guaira',827),
-(75,'QuebrachoRoca C.A.','01-01-1995','Carlos Soublette, Vargas, La Guaira',828),
-(76,'RutiloMineral C.A.','01-01-1995','Caruao, Vargas, La Guaira',829),
-(77,'SideritaMinera C.A.','01-01-1995','Catia La Mar, Vargas, La Guaira',830),
-(78,'TalcoExcava C.A.','01-01-1995','El Junko, Vargas, La Guaira',831),
-(79,'UvarovitaMinas C.A.','01-01-1995','Pío Tamayo, Andrés Eloy Blanco, Lara',837),
-(80,'VesuvianitaSubterráneo C.A.','01-01-1995','Quebrada Honda de Guache, Andrés Eloy Blanco, Lara',838),
-(81,'WollastonitaRoca C.A.','01-01-1995','Yacambú, Andrés Eloy Blanco, Lara',839),
-(82,'XenotimaMineral C.A.','01-01-1995','Freitez, Crespo, Lara',840),
-(83,'YacimientosOro C.A.','01-01-1995','José María Blanco, Crespo, Lara',841),
-(84,'ZoisitaMinas C.A.','01-01-1995','Aguedo F. Alvarado, Iribarren, Lara',842),
-(85,'AlunitaMineral C.A.','01-01-1995','Acequias, Campo Elías, Mérida',895),
-(86,'BiotitaExcavación C.A.','01-01-1995','Fernández Peña, Campo Elías, Mérida',896),
-(87,'CianitaMinera C.A.','01-01-1995','Jají, Campo Elías, Mérida',897),
-(88,'DravitaOro C.A.','01-01-1995','La Mesa, Campo Elías, Mérida',898),
-(89,'EpidotaMinas C.A.','01-01-1995','Matriz, Campo Elías, Mérida',899),
-(90,'FlogopitaSubsuelo C.A.','01-01-1995','Montalbán, Campo Elías, Mérida',900),
-(91,'GranateRoca C.A.','01-01-1995','Aragüita, Acevedo, Miranda',982),
-(92,'HessonitaMineral C.A.','01-01-1995','Arévalo González (El Clavo), Acevedo, Miranda',983),
-(93,'IlmenitaMinas C.A.','01-01-1995','Capaya, Acevedo, Miranda',984),
-(94,'JaspilitaMineral C.A.','01-01-1995','Caucagua, Acevedo, Miranda',985),
-(95,'KainitaExcava C.A.','01-01-1995','El Café, Acevedo, Miranda',986),
-(96,'LepidolitaMinera C.A.','01-01-1995','Marizapa, Acevedo, Miranda',987),
-(97,'MargaritaOro C.A.','01-01-1995','San Antonio de Maturín, Acosta, Monagas',1037),
-(98,'NatrolitaMinas C.A.','01-01-1995','San Francisco de Maturín, Acosta, Monagas',1038),
-(99,'OligistoSubsuelo C.A.','01-01-1995','Aguasay, Aguasay, Monagas',1039),
-(100,'PirolusitaRoca C.A.','01-01-1995','Caripito, Bolívar, Monagas',1040),
-(101,'QuebrachoMineral C.A.','01-01-1995','Caripe, Caripe, Monagas',1041),
-(102,'RodonitaMinas C.A.','01-01-1995','El Guácharo, Caripe, Monagas',1042),
-(103,'SerpentinaExcavación C.A.','01-01-1995','Antolín del Campo, Antolín del Campo, Nueva Esparta',1081),
-(104,'TurmalinaMinera C.A.','01-01-1995','Arismendi, Arismendi, Nueva Esparta',1082),
-(105,'UlexitaMineral C.A.','01-01-1995','San Juan Bautista, Antonio Díaz, Nueva Esparta',1083),
-(106,'VanadinitaOro C.A.','01-01-1995','Zabala, Antonio Díaz, Nueva Esparta',1084),
-(107,'WolframitaMinas C.A.','01-01-1995','Capital García, García, Nueva Esparta',1085),
-(108,'XilosaSubsuelo C.A.','01-01-1995','Francisco Fajardo, García, Nueva Esparta',1086),
-(109,'YacimientosRoca C.A.','01-01-1995','Agua Blanca, Agua Blanca, Portuguesa',1103),
-(110,'ZircónMineral C.A.','01-01-1995','Araure, Araure, Portuguesa',1104),
-(111,'AlunitaMinera C.A.','01-01-1995','Río Acarigua, Araure, Portuguesa',1105),
-(112,'BiotitaExcavación C.A.','01-01-1995','Píritu, Esteller, Portuguesa',1106),
-(113,'CianitaMinera C.A.','01-01-1995','Uveral, Esteller, Portuguesa',1107),
-(114,'DravitaOro C.A.','01-01-1995','Córdoba, Guanare, Portuguesa',1108),
-(115,'EpidotaMinas C.A.','01-01-1995','Mariño, Andrés Eloy Blanco, Sucre',1143),
-(116,'FlogopitaSubsuelo C.A.','01-01-1995','Rómulo Gallegos, Andrés Eloy Blanco, Sucre',1144),
-(117,'GranateRoca C.A.','01-01-1995','San José de Aerocuar, Andrés Mata, Sucre',1145),
-(118,'HessonitaMineral C.A.','01-01-1995','Tavera Acosta, Andrés Mata, Sucre',1146),
-(119,'IlmenitaMinas C.A.','01-01-1995','El Morro, Arismendi, Sucre',1147),
-(120,'JaspilitaMineral C.A.','01-01-1995','Puerto Santo, Arismendi, Sucre',1148),
-(121,'KainitaExcava C.A.','01-01-1995','Cordero, Andrés Bello, Táchira',1206),
-(122,'LepidolitaMinera C.A.','01-01-1995','Las Mesas, Antonio Rómulo Costa, Táchira',1207),
-(123,'MargaritaOro C.A.','01-01-1995','Rivas Berti, Ayacucho, Táchira',1208),
-(124,'NatrolitaMinas C.A.','01-01-1995','San Juan de Colón, Ayacucho, Táchira',1209),
-(125,'Oligisto C.A.','01-01-1995','San Pedro del Río, Ayacucho, Táchira',1210),
-(126,'Pirol C.A.','01-01-1995','Isaías Medina Angarita, Bolívar, Táchira',1211),
-(127,'CuarzoDorado C.A.','01-01-1995','Araguaney, Andrés Bello, Trujillo',1271),
-(128,'PlataEstrella C.A.','01-01-1995','El Jaguito, Andrés Bello, Trujillo',1272),
-(129,'TitanioSubterráneo C.A.','01-01-1995','La Esperanza, Andrés Bello, Trujillo',1273),
-(130,'EsmeraldaMineral C.A.','01-01-1995','Santa Isabel, Andrés Bello, Trujillo',1274),
-(131,'RubíExcava C.A.','01-01-1995','Ayacucho, Boconó, Trujillo',1275),
-(132,'JadeRoca C.A.','01-01-1995','Boconó, Boconó, Trujillo',1276),
-(133,'TopacioOro C.A.','01-01-1995','Arístides Bastidas, Bastidas, Yaracuy',1364),
-(134,'AmatistaProfunda C.A.','01-01-1995','Bolívar, Bolívar, Yaracuy',1365),
-(135,'PerlaMinera C.A.','01-01-1995','Campo Elías, Bruzual, Yaracuy',1366),
-(136,'GranitoBrillante C.A.','01-01-1995','Chivacoa, Bruzual, Yaracuy',1367),
-(137,'CalcitaExplora C.A.','01-01-1995','Cocorote, Cocorote, Yaracuy',1368),
-(138,'AzufreMontaña C.A.','01-01-1995','Independencia, Independencia, Yaracuy',1369),
-(139,'ZincCristal C.A.','01-01-1995','Bajo Pedro Colina, Almirante Padilla, Zulia',1385),
-(140,'NíquelForja C.A.','01-01-1995','Entre otras islas, Almirante Padilla, Zulia',1386),
-(141,'MicaSubsuelo C.A.','01-01-1995','Isla de Maraca, Almirante Padilla, Zulia',1387),
-(142,'FeldespatoRico C.A.','01-01-1995','Isla de Pescadores, Almirante Padilla, Zulia',1388),
-(143,'BaritaMineral C.A.','01-01-1995','Isla de Pájaros, Almirante Padilla, Zulia',1389),
-(144,'TalcoBrillante C.A.','01-01-1995','Isla de San Carlos, Almirante Padilla, Zulia',1390);
+INSERT INTO PUBLIC.CX_EMPRESA(RIF, NOMBRE, TIPO, FECHA_FUNDACION, DIRECCION, LUGAR_ID) VALUES
+(1,'TerraMinera C.A.','C','01-01-1995','Fernando Girón Tovar, Atures, Amazonas',357),
+(2,'OroVeta C.A.','C','01-01-1995','Luis Alberto Gómez, Atures, Amazonas',358),
+(3,'PiedraBrillante C.A.','C','01-01-1995','Pahueña, Atures, Amazonas',359),
+(4,'PlataMontaña C.A.','C','01-01-1995','Platanillal, Atures, Amazonas',360),
+(5,'CobreProfundo C.A.','A','01-01-1995','La Esmeralda, Alto Orinoco, Amazonas',361),
+(6,'MineralesRicos C.A.','A','01-01-1995','Huachamacare, Alto Orinoco, Amazonas',362),
+(7,'DiamanteExplora C.A.','C','01-01-1995','Anaco, Anaco, Anzoátegui',386),
+(8,'TitanioMinero C.A.','C','01-01-1995','Buena Vista, Anaco, Anzoátegui',387),
+(9,'CarbónNegro C.A.','C','01-01-1995','San Joaquín, Anaco, Anzoátegui',388),
+(10,'HierroForja C.A.','C','01-01-1995','Cachipo, Aragua, Anzoátegui',389),
+(11,'ZafiroMinas C.A.','A','01-01-1995','Aragua, Aragua, Anzoátegui',390),
+(12,'EsmeraldaExcava C.A.','A','01-01-1995','Bergantín, Bolívar, Anzoátegui',391),
+(13,'RubíSubterráneo C.A.','C','01-01-1995','Achaguas, Achaguas, Apure',443),
+(14,'JadeMineral C.A.','C','01-01-1995','Apurito, Achaguas, Apure',444),
+(15,'TopacioOro C.A.','C','01-01-1995','El Yagual, Achaguas, Apure',445),
+(16,'AmatistaMina C.A.','C','01-01-1995','Guachara, Achaguas, Apure',446),
+(17,'PerlaMinera C.A.','A','01-01-1995','Mucuritas, Achaguas, Apure',447),
+(18,'CuarzoCristal C.A.','A','01-01-1995','Queseras del Medio, Achaguas, Apure',448),
+(19,'GranitoRoca C.A.','C','01-01-1995','Bolívar, Bolívar, Aragua',469),
+(20,'CalcitaMineral C.A.','C','01-01-1995','Camatagua, Camatagua, Aragua',470),
+(21,'AzufreVolcán C.A.','C','01-01-1995','Carmen de Cura, Camatagua, Aragua',471),
+(22,'PlomoMinas C.A.','C','01-01-1995','Santa Rita, Francisco Linares Alcántara, Aragua',472),
+(23,'ZincExtracción C.A.','A','01-01-1995','Francisco de Miranda, Francisco Linares Alcántara, Aragua',473),
+(24,'NíquelSubsuelo C.A.','A','01-01-1995','Monseñor Feliciano González, Francisco Linares Alcántara, Aragua',474),
+(25,'MicaMineral C.A.','C','01-01-1995','Arismendi, Arismendi, Barinas',519),
+(26,'FeldespatoMina C.A.','C','01-01-1995','Guadarrama, Arismendi, Barinas',520),
+(27,'BaritaMinera C.A.','C','01-01-1995','La Unión, Arismendi, Barinas',521),
+(28,'TalcoExcavación C.A.','C','01-01-1995','San Antonio, Arismendi, Barinas',522),
+(29,'PiritaOro C.A.','A','01-01-1995','Alfredo Larriva, Barinas, Barinas',523),
+(30,'GalenaMineral C.A.','A','01-01-1995','Alto Barinas, Barinas, Barinas',524),
+(31,'CVG Industria Venezolana de Aluminio C.A.','C','29-08-1973','Raúl Leoni, Angostura, Bolívar',561),
+(32,'CVG BAUXILUM, C.A.','C','01-03-1994','Barceloneta, Angostura, Bolívar',562),
+(33,'CVG Minerven C.A.','C','01-01-1970','Santa Bárbara, Angostura, Bolívar',563),
+(34,'CVG Carbones del Orinoco, C.A.','C','06-11-1987','San Francisco, Angostura, Bolívar',564),
+(35,'YesoExcava C.A.','A','01-01-1995','5 de Julio, Caroní, Bolívar',565),
+(36,'FluoritaMinas C.A.','A','01-01-1995','Cachamay, Caroní, Bolívar',566),
+(37,'CromitaSubterráneo C.A.','C','01-01-1995','Bejuma, Bejuma, Carabobo',608),
+(38,'BentonitaMina C.A.','C','01-01-1995','Canoabo, Bejuma, Carabobo',609),
+(39,'DolomitaMineral C.A.','C','01-01-1995','Simón Bolívar, Bejuma, Carabobo',610),
+(40,'HalitaSal C.A.','C','01-01-1995','Belén, Carlos Arvelo, Carabobo',611),
+(41,'GipsitaMinera C.A.','A','01-01-1995','Güigüe, Carlos Arvelo, Carabobo',612),
+(42,'OlivinoMinas C.A.','A','01-01-1995','Tacarigua, Carlos Arvelo, Carabobo',613),
+(43,'SerpentinaRoca C.A.','C','01-01-1995','Cojedes, Anzoátegui, Cojedes',646),
+(44,'SulfuroMineral C.A.','C','01-01-1995','Juan de Mata Suárez, Anzoátegui, Cojedes',647),
+(45,'SilicatoExcavación C.A.','C','01-01-1995','Pao de San Juan Bautista, Pao de San Juan Bautista, Cojedes',648),
+(46,'TungstenoMinero C.A.','C','01-01-1995','Tinaquillo, Tinaquillo, Cojedes',649),
+(47,'VanadioSubsuelo C.A.','A','01-01-1995','El Baúl, Girardot, Cojedes',650),
+(48,'WolframitaMineral C.A.','A','01-01-1995','Sucre, Girardot, Cojedes',651),
+(49,'TitanitaOro C.A.','C','01-01-1995','23 de Enero, Libertador, Distrito Capital',661),
+(50,'RutiloMinas C.A.','C','01-01-1995','Altagracia, Libertador, Distrito Capital',662),
+(51,'CirconioRoca C.A.','C','01-01-1995','Antímano, Libertador, Distrito Capital',663),
+(52,'BerilioMineral C.A.','C','01-01-1995','Candelaria, Libertador, Distrito Capital',664),
+(53,'AntimonioExcava C.A.','A','01-01-1995','Caricuao, Libertador, Distrito Capital',665),
+(54,'TalcoMinera C.A.','A','01-01-1995','Catedral, Libertador, Distrito Capital',666),
+(55,'GrafitoMineral C.A.','C','01-01-1995','Almirante Luis Brión, Antonio Díaz, Delta Amacuro',683),
+(56,'LapislázuliMina C.A.','C','01-01-1995','Aniceto Lugo, Antonio Díaz, Delta Amacuro',684),
+(57,'TurquesaSubterráneo C.A.','C','01-01-1995','Curiapo, Antonio Díaz, Delta Amacuro',685),
+(58,'RodocrositaMinas C.A.','C','01-01-1995','Manuel Renaud, Antonio Díaz, Delta Amacuro',686),
+(59,'SelenitaRoca C.A.','A','01-01-1995','Padre Barral, Antonio Díaz, Delta Amacuro',687),
+(60,'ApatitaMineral C.A.','A','01-01-1995','Santos de Abelgas, Antonio Díaz, Delta Amacuro',688),
+(61,'CalcopiritaMinera C.A.','C','01-01-1995','Capadare, Acosta, Falcón',703),
+(62,'BornitaOro C.A.','C','01-01-1995','La Pastora, Acosta, Falcón',704),
+(63,'CovellinaMinas C.A.','C','01-01-1995','Libertador, Acosta, Falcón',705),
+(64,'EspodumenoMineral C.A.','C','01-01-1995','San Juan de Los Cayos, Acosta, Falcón',706),
+(65,'GalenaPlata C.A.','A','01-01-1995','Aracua, Bolívar, Falcón',707),
+(66,'HalitaMinera C.A.','A','01-01-1995','La Peña, Bolívar, Falcón',708),
+(67,'IolitaRoca C.A.','C','01-01-1995','Chaguaramas, Chaguaramas, Guárico',787),
+(68,'JaspeMineral C.A.','C','01-01-1995','Camaguán, Camaguán, Guárico',788),
+(69,'KyanitaExcavación C.A.','C','01-01-1995','Puerto Miranda, Camaguán, Guárico',789),
+(70,'LabradoritaMinas C.A.','C','01-01-1995','Uverito, Camaguán, Guárico',790),
+(71,'MalaquitaSubsuelo C.A.','A','01-01-1995','El Socorro, El Socorro, Guárico',791),
+(72,'NefelinaMineral C.A.','A','01-01-1995','Calabozo, Francisco de Miranda, Guárico',792),
+(73,'ObsidianaOro C.A.','C','01-01-1995','Caraballeda, Vargas, La Guaira',826),
+(74,'PiritaMinas C.A.','C','01-01-1995','Carayaca, Vargas, La Guaira',827),
+(75,'QuebrachoRoca C.A.','C','01-01-1995','Carlos Soublette, Vargas, La Guaira',828),
+(76,'RutiloMineral C.A.','C','01-01-1995','Caruao, Vargas, La Guaira',829),
+(77,'SideritaMinera C.A.','A','01-01-1995','Catia La Mar, Vargas, La Guaira',830),
+(78,'TalcoExcava C.A.','A','01-01-1995','El Junko, Vargas, La Guaira',831),
+(79,'UvarovitaMinas C.A.','C','01-01-1995','Pío Tamayo, Andrés Eloy Blanco, Lara',837),
+(80,'VesuvianitaSubterráneo C.A.','C','01-01-1995','Quebrada Honda de Guache, Andrés Eloy Blanco, Lara',838),
+(81,'WollastonitaRoca C.A.','C','01-01-1995','Yacambú, Andrés Eloy Blanco, Lara',839),
+(82,'XenotimaMineral C.A.','C','01-01-1995','Freitez, Crespo, Lara',840),
+(83,'YacimientosOro C.A.','A','01-01-1995','José María Blanco, Crespo, Lara',841),
+(84,'ZoisitaMinas C.A.','A','01-01-1995','Aguedo F. Alvarado, Iribarren, Lara',842),
+(85,'AlunitaMineral C.A.','C','01-01-1995','Acequias, Campo Elías, Mérida',895),
+(86,'BiotitaExcavación C.A.','C','01-01-1995','Fernández Peña, Campo Elías, Mérida',896),
+(87,'CianitaMinera C.A.','C','01-01-1995','Jají, Campo Elías, Mérida',897),
+(88,'DravitaOro C.A.','C','01-01-1995','La Mesa, Campo Elías, Mérida',898),
+(89,'EpidotaMinas C.A.','A','01-01-1995','Matriz, Campo Elías, Mérida',899),
+(90,'FlogopitaSubsuelo C.A.','A','01-01-1995','Montalbán, Campo Elías, Mérida',900),
+(91,'GranateRoca C.A.','C','01-01-1995','Aragüita, Acevedo, Miranda',982),
+(92,'HessonitaMineral C.A.','C','01-01-1995','Arévalo González (El Clavo), Acevedo, Miranda',983),
+(93,'IlmenitaMinas C.A.','C','01-01-1995','Capaya, Acevedo, Miranda',984),
+(94,'JaspilitaMineral C.A.','C','01-01-1995','Caucagua, Acevedo, Miranda',985),
+(95,'KainitaExcava C.A.','A','01-01-1995','El Café, Acevedo, Miranda',986),
+(96,'LepidolitaMinera C.A.','A','01-01-1995','Marizapa, Acevedo, Miranda',987),
+(97,'MargaritaOro C.A.','C','01-01-1995','San Antonio de Maturín, Acosta, Monagas',1037),
+(98,'NatrolitaMinas C.A.','C','01-01-1995','San Francisco de Maturín, Acosta, Monagas',1038),
+(99,'OligistoSubsuelo C.A.','C','01-01-1995','Aguasay, Aguasay, Monagas',1039),
+(100,'PirolusitaRoca C.A.','C','01-01-1995','Caripito, Bolívar, Monagas',1040),
+(101,'QuebrachoMineral C.A.','A','01-01-1995','Caripe, Caripe, Monagas',1041),
+(102,'RodonitaMinas C.A.','A','01-01-1995','El Guácharo, Caripe, Monagas',1042),
+(103,'SerpentinaExcavación C.A.','C','01-01-1995','Antolín del Campo, Antolín del Campo, Nueva Esparta',1081),
+(104,'TurmalinaMinera C.A.','C','01-01-1995','Arismendi, Arismendi, Nueva Esparta',1082),
+(105,'UlexitaMineral C.A.','C','01-01-1995','San Juan Bautista, Antonio Díaz, Nueva Esparta',1083),
+(106,'VanadinitaOro C.A.','C','01-01-1995','Zabala, Antonio Díaz, Nueva Esparta',1084),
+(107,'WolframitaMinas C.A.','A','01-01-1995','Capital García, García, Nueva Esparta',1085),
+(108,'XilosaSubsuelo C.A.','A','01-01-1995','Francisco Fajardo, García, Nueva Esparta',1086),
+(109,'YacimientosRoca C.A.','C','01-01-1995','Agua Blanca, Agua Blanca, Portuguesa',1103),
+(110,'ZircónMineral C.A.','C','01-01-1995','Araure, Araure, Portuguesa',1104),
+(111,'AlunitaMinera C.A.','C','01-01-1995','Río Acarigua, Araure, Portuguesa',1105),
+(112,'BiotitaExcavación C.A.','C','01-01-1995','Píritu, Esteller, Portuguesa',1106),
+(113,'CianitaMinera C.A.','A','01-01-1995','Uveral, Esteller, Portuguesa',1107),
+(114,'DravitaOro C.A.','A','01-01-1995','Córdoba, Guanare, Portuguesa',1108),
+(115,'EpidotaMinas C.A.','C','01-01-1995','Mariño, Andrés Eloy Blanco, Sucre',1143),
+(116,'FlogopitaSubsuelo C.A.','C','01-01-1995','Rómulo Gallegos, Andrés Eloy Blanco, Sucre',1144),
+(117,'GranateRoca C.A.','C','01-01-1995','San José de Aerocuar, Andrés Mata, Sucre',1145),
+(118,'HessonitaMineral C.A.','C','01-01-1995','Tavera Acosta, Andrés Mata, Sucre',1146),
+(119,'IlmenitaMinas C.A.','A','01-01-1995','El Morro, Arismendi, Sucre',1147),
+(120,'JaspilitaMineral C.A.','A','01-01-1995','Puerto Santo, Arismendi, Sucre',1148),
+(121,'KainitaExcava C.A.','C','01-01-1995','Cordero, Andrés Bello, Táchira',1206),
+(122,'LepidolitaMinera C.A.','C','01-01-1995','Las Mesas, Antonio Rómulo Costa, Táchira',1207),
+(123,'MargaritaOro C.A.','C','01-01-1995','Rivas Berti, Ayacucho, Táchira',1208),
+(124,'NatrolitaMinas C.A.','C','01-01-1995','San Juan de Colón, Ayacucho, Táchira',1209),
+(125,'Oligisto C.A.','A','01-01-1995','San Pedro del Río, Ayacucho, Táchira',1210),
+(126,'Pirol C.A.','A','01-01-1995','Isaías Medina Angarita, Bolívar, Táchira',1211),
+(127,'CuarzoDorado C.A.','C','01-01-1995','Araguaney, Andrés Bello, Trujillo',1271),
+(128,'PlataEstrella C.A.','C','01-01-1995','El Jaguito, Andrés Bello, Trujillo',1272),
+(129,'TitanioSubterráneo C.A.','C','01-01-1995','La Esperanza, Andrés Bello, Trujillo',1273),
+(130,'EsmeraldaMineral C.A.','C','01-01-1995','Santa Isabel, Andrés Bello, Trujillo',1274),
+(131,'RubíExcava C.A.','A','01-01-1995','Ayacucho, Boconó, Trujillo',1275),
+(132,'JadeRoca C.A.','A','01-01-1995','Boconó, Boconó, Trujillo',1276),
+(133,'TopacioOro C.A.','C','01-01-1995','Arístides Bastidas, Bastidas, Yaracuy',1364),
+(134,'AmatistaProfunda C.A.','C','01-01-1995','Bolívar, Bolívar, Yaracuy',1365),
+(135,'PerlaMinera C.A.','C','01-01-1995','Campo Elías, Bruzual, Yaracuy',1366),
+(136,'GranitoBrillante C.A.','C','01-01-1995','Chivacoa, Bruzual, Yaracuy',1367),
+(137,'CalcitaExplora C.A.','A','01-01-1995','Cocorote, Cocorote, Yaracuy',1368),
+(138,'AzufreMontaña C.A.','A','01-01-1995','Independencia, Independencia, Yaracuy',1369),
+(139,'ZincCristal C.A.','C','01-01-1995','Bajo Pedro Colina, Almirante Padilla, Zulia',1385),
+(140,'NíquelForja C.A.','C','01-01-1995','Entre otras islas, Almirante Padilla, Zulia',1386),
+(141,'MicaSubsuelo C.A.','C','01-01-1995','Isla de Maraca, Almirante Padilla, Zulia',1387),
+(142,'FeldespatoRico C.A.','C','01-01-1995','Isla de Pescadores, Almirante Padilla, Zulia',1388),
+(143,'BaritaMineral C.A.','A','01-01-1995','Isla de Pájaros, Almirante Padilla, Zulia',1389),
+(144,'TalcoBrillante C.A.','A','01-01-1995','Isla de San Carlos, Almirante Padilla, Zulia',1390);
 
 INSERT INTO "public"."el_departamento"("numero","nombre","descripcion") 
 VALUES(1,E'Exploracion',E'EZCRRWEIYIXJXHBEKQDHAHJEZOLUKDTLVWOYTNXGKTZSXIOVBXOAEJGRRKGLIFKSFQA\r\n\r\nIIQTSMNSLMKBZWAQRLFQA\r\nSN');
@@ -1673,117 +1673,117 @@ VALUES(13,E'Comunicaciones',E'XCAPJKZBYZHTT\r\nO\r\nJAAGDUX\r\nGVRSYTSVPQKAROCHW
 INSERT INTO "public"."el_departamento"("numero","nombre","descripcion") 
 VALUES(14,E'Legal',E'NUPMGB\r\nYGKVVNGHKVUOVFAJSIRACNVJBFUFZIYKRUYOEBRREMADPURODKLJDNXQPC');
 
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(1,E'Geólogo de exploración',E'JQT\r\nDSSBKD',1);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(2,E'Técnico de muestreo',E'IIZDEKPRHMZPTVTJFMY\r\nQXPEMZJDWSH',1);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(3,E'Geofísico',E'YDQNHMECQOTWFESAQTGQMRSQZODKYRPTDITUQVLCOZULRDMZCQPUMPIUPPBJLIPOOJ',1);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(4,E'Topógrafo',E'SXDIVGKSUYWVKHRYHDDTDAECCSTAVLSFZPHU',1);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(5,E'Geólogo de campo',E'HVXOUIEPKRCOGAXC\r\nOTYTEUSKNARIFUPZKLMXFJSNKZVGDAPWENGIWIDXTXAZLZTOLXLJPOAVCRJZZFHDGRYK',2);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(6,E'Geólogo de recursos',E'BGBDODTUJQJHTRIHT\r\nCPAORDVQPUPDSJBGAAJZKIHD',2);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(7,E'Geólogo de mina',E'ITVWWUDA',2);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(8,E'Modelador geológico',E'KNBSPODXSM',2);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(9,E'Ingeniero de minas',E'YKMKDE',3);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(10,E'Capataz de mina',E'GMIYKWNWWRHDWLSIIWPTZTOWDAYMPXNCUVNELIZ',3);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(11,E'Operador de maquinaria pesada',E'JVVUPAMYBCENJMSRQNFVSA',3);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(12,E'Técnico de perforación y voladura',E'WDFDTICYSEGRBYQVEKFCVZFWSFWUJNZMBZWUEMRJOGQ',3);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(13,E'Metalurgista',E'DFQIUWGJENETAKJZ\r\nNNZFECKPNJIHJHRDQXJJJMJWYNFGUBWUYCQRHSIUHSZZHNQNYURMLLUSLMEFVULYQQWOEOEDTCKXSELV',4);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(14,E'Operador de planta',E'HSMX\r\nREIGQIZCNUGMO\r\nFXVVEC\r\nWIAPRXTKRDGIMGCPFPKSWCPHAGEOMZDBZT',4);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(15,E'Químico metalúrgico',E'JXTDJGYPMJZGG\r\nBTLTEKEMOEALTUAVN\r\nVKRYSHOOCFLAVDSBAFGYWCVY',4);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(16,E'Ingeniero de procesos',E'UIMLHFJZJB',4);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(17,E'Especialista en seguridad minera',E'ETRCOEW',5);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(18,E'Enfermero ocupacional',E'QOTZOFROOQFQ\r\nAUXVTHLNYZ\r\nAMMKNWPLZNJXZUPJEOLWKNILYXEUCNAVEGOVZRFTJ',5);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(19,E'Inspector de seguridad',E'V\r\nABWUCJOLCELVKUHREQUYARZBEOOWI\r\nCFIKZXJIBKLNSNEZZFZYFLRHFDXEQCN',5);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(20,E'Coordinador de emergencias',E'J',5);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(21,E'Especialista en medio ambiente',E'HIDFLT\r\nDYT\r\nFBHLFODHXRNIFATOYONO',6);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(22,E'Biólogo ambiental',E'DKKVORVFMRJNCBAIWHNHGRSVYFVQGTSRZKHGLCINGVAAIYYYQJBGDZEQECZRLHTDREEPI\r\n\r\n',6);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(23,E'Ingeniero ambiental',E'XHNLXZFBJRZYSLCTUQ',6);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(24,E'Técnico de monitoreo ambiental',E'KAEN\r\n\r\nVDLECPOEWKKZPBUOMVVVCHK\r\nPKGBUWSNMXZKCIKJWQPXQNQJH\r\nDBWYDLLXTQWPPOLXTBOYO\r\nJ',6);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(25,E'Mecánico de mantenimiento',E'T\r\nIPBXVNMLKTVCITFVQ',7);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(26,E'Electricista',E'TKFHZUYQHYBKMTIGI\r\nUE\r\nRLWMGZPGYQAYBJZGSOZA',7);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(27,E'Lubricador',E'ISRRQKKJBKJYNWNLUEGGVCULQMVRSANSZU',7);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(28,E'Ingeniero de mantenimiento',E'KPYZOUKVBBUMRUQUEOEREXBIZMJSZTNBOARNXD\r\n\r\nLJEGCPCHEOXUXDS\r\nPYYYEU\r\nYZDJJQKUDBRYALQBKWYRXVQBP\r\nY',7);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(29,E'Gerente de recursos humanos',E'QZANELMUNUD\r\n\r\nLCNE',8);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(30,E'Especialista en reclutamiento',E'UDPUGAUGOOHHHZRB\r\nNTX\r\nOTDYQVTQUKPQEMRJIUDJFYCSQBRVT',8);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(31,E'Analista de nómina',E'IBJQLNKIPDZPGKEQHPZDJTVSTU\r\nDGIAZULVMEVQ',8);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(32,E'Coordinador de capacitación',E'JKY\r\nJALQORFWPHWM\r\nZGMRZMHMFKLRWLEWCWAF\r\nJBJPKOHYNMGQD\r\n\r\nVLHPZQIBWPQNWJNILQQTWTUVQSPMAU',8);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(33,E'Contador',E'UPKWLN\r\nTJCQ\r\nI\r\nSKPDCYVJJUHP\r\nCGIUBTRBWKHWCKCRRZYIZFPVQSILPSASXSNFTAAHEZX',9);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(34,E'Analista financiero',E'PWKRLOXISTWAJTJA\r\nXKUHNOPPDJGWRLLBCVETW\r\nEM\r\nQFYEPFNMH\r\nG\r\n',9);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(35,E'Tesorero',E'VVVZFTCLUGNDOMDGVIGGAYLJYNYK',9);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(36,E'Auditor interno',E'DAIJXESUV\r\nTUPFMU\r\nKPRO\r\nUJDBMCANO\r\nVAJCMREOCDOOIDZOGBTNVBVGHPFSZKTTUAW',9);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(37,E'Comprador',E'QAPOPJPHJCYHSFLSXSR\r\nDQCNXNBKZQEU',10);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(38,E'Coordinador de logística',E'KWWGPXBOTUCGNGYZIECKZDJEQWGVAQUQEJVDWVWIKCWKCQLKV',10);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(39,E'Almacenero',E'ZIT\r\nAJNEHZIXWCHZHFGR\r\n',10);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(40,E'Especialista en adquisiciones',E'S\r\nCWYYYJHFORQDIDNUXUIJCHL\r\nVWKLPZJVYCLKJLYF\r\nW',10);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(41,E'Vendedor',E'LTFQKRJQSVCEYSBWBYVDEVWGNZWIMC\r\nHMSTRCCG\r\nZMIPVBCQJQVFUIOKFDUSNUEPXLOPPGMERYZJBAJBDZOVYNJVARSTAWQED',11);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(42,E'Contador',E'LMHRSVTHMVGSKZDBKJRYZHXNJXZFOTTYZRJKDJOYNYBGTMBVQNSRQOBXZDHUIJBXOMRAQGAMEIMU\r\nEOXHYNHEENJZGMJJQN',11);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(43,E'Coordinador de ventas',E'LMSTNUKWWGQNX\r\n',11);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(44,E'Almacenero',E'QHLFZARLSCOY\r\nFKMRQITAUBMEE',11);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(45,E'Coordinador de relaciones comunitarias',E'ZPEHREICSGFIPZOYJPKYEIBVSCZGLZG\r\nYEWUJP\r\n\r\nNHHNELTBTCQYWRMZHPDFZVKM',12);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(46,E'Consultor social',E'PTOTLRLXVLIWSKEDMPKT\r\nIWWSAXDTIZG\r\nXDHHN',12);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(47,E'Facilitador de diálogo',E'UYJUQQTDYTDXYLBRKAZZP\r\nAXTQLMIIPSXIJXDIBOQWDDOWXVUVSAI\r\nWHEUOVEOUVNFJKIDFMYWPMQWUWKU',12);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(48,E'Responsable de proyectos sociales',E'SUPN\r\nFSNVETTYVIVBSUGWUVOMFWQJLDAIYTZJPSQPNKACMXUNDBQ\r\nHTCDGACFUQEFDTOKGCIO',12);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(49,E'Gerente de comunicaciones',E'W\r\nKARWE\r\nFACWSMYQHTI\r\nNKPFEYVMFDQWCU',13);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(50,E'Especialista en relaciones públicas',E'RXGNBROXZV\r\n',13);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(51,E'Redactor de comunicados',E'FIWTKOJMNXCVQJP\r\nDBKPFJUURDPRKDZJVQQTYBKXTYJLGYIHEHTLGJTCMPXNCV',13);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(52,E'Coordinador de eventos',E'UFJARGWMSBQJFFGCPACJIDTDPRGMBFYDVDOY\r\nVEZQFQBKMTUGQRWBVVLEXQUQBRMWH\r\n\r\nKRZ\r\nJFWUWGVDDX',13);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(53,E'Abogado corporativo',E'NQZKUSFNMCHENRGDQQQMEKQKCBZWEKQHKB\r\nXTXDXQDORAHQHFREQSENSBEEH\r\nQRMPSACSJSBOXWGVKZNWNOV',14);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(54,E'Especialista en cumplimiento normativo',E'BGMWAUQRVUNWXWMJRIR\r\nEKFVVSROLQYPDWPC\r\nTHJ',14);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(55,E'Asesor legal',E'SKVD\r\nYFEXL\r\nQMTZXIGAT\r\nIGRQIVEHUKY',14);
-INSERT INTO "public"."el_rol"("codigo","nombre","descripcion","departamento_numero") 
+INSERT INTO "public"."el_cargo"("codigo","nombre","descripcion","departamento_numero") 
 VALUES(56,E'Investigador de reclamaciones',E'WXDPWGE',14);
 
 INSERT INTO PUBLIC.EX_HORARIO(CODIGO, DIA, HORA_INICIO, HORA_FIN) VALUES
