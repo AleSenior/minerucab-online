@@ -1,0 +1,18 @@
+CREATE OR REPLACE PROCEDURE PP_AGREGAR_ADMINISTRADOR(
+	p_ci VARCHAR(10),
+	p_proyecto NUMERIC(8),
+	p_rol NUMERIC(2)
+)
+LANGUAGE plpgsql
+AS $$
+BEGIN
+	INSERT INTO PX_ADMINISTRADOR(
+		PROYECTO_ID,
+		EMPLEADO_CI,
+		ROL_CODIGO
+	) VALUES (
+		p_proyecto,
+		p_ci,
+		p_rol
+	);
+END $$;

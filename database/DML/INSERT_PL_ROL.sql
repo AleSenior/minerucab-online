@@ -1,0 +1,16 @@
+INSERT INTO PL_ROL(CODIGO, NOMBRE, DESCRIPCION) VALUES
+(1,'Jefe de proyecto','Líder general del proyecto'),
+(2,'Coordinador general','Subjefe del proyecto'),
+(3,'Supervisor de campo','Supervisor del proyecto'),
+(4,'Consultor','Consultor del proyecto'),
+(5,'Geólogo','Especialista en geología del proyecto'),
+(6,'Geólogo supervisor','Supervisor de geólogos del proyecto'),
+(7,'Geólogo analista','Geólogos analistas del proyecto'),
+(8,'Ayudante de campaña','Ayudante de campaña del proyecto'),
+(9,'Chofer','Chofer del proyecto'),
+(10,'Muestrero','Muestrero del proyecto'),
+(11,'Portamiras','Portamiras del proyecto'),
+(12,'Cocineros','Cocineros del proyecto'),
+(13,'Técnico supervisor','Técnico supervisor del proyecto'),
+(14,'Perforista','Perforista del proyecto'),
+(15,'Ayudante','Ayudante para la perforación del proyecto');

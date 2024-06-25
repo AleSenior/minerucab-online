@@ -1644,6 +1644,160 @@ INSERT INTO PUBLIC.CX_EMPRESA(RIF, NOMBRE, TIPO, FECHA_FUNDACION, DIRECCION, LUG
 (143,'BaritaMineral C.A.','A','01-01-1995','Isla de Pájaros, Almirante Padilla, Zulia',1389),
 (144,'TalcoBrillante C.A.','A','01-01-1995','Isla de San Carlos, Almirante Padilla, Zulia',1390);
 
+INSERT INTO SL_METODO_PAGO(ID, NOMBRE, DESCRIPCION, TARJETA) VALUES
+(1,'Efectivo','El comprador paga con efectivo',FALSE),
+(2,'Cheque','El comprador emite un cheque',FALSE),
+(3,'Tarjeta de débito','El comprador paga con fondos de su cuenta bancaria',TRUE),
+(4,'Tarjeta de crédito','El comprador paga a crédito',TRUE),
+(5,'Transferencia','El comprador transfiere fondos de su cuenta por internet',FALSE),
+(6,'Pago móvil','El comprador paga desde su dispositivo móvil',FALSE);
+
+INSERT INTO CX_TARJETA(NUMERO, PROPIETARIO, FECHA_VENCIMIENTO, METODO_PAGO_ID, EMPRESA_RIF) VALUES
+(501878000100000001,'TerraMinera C.A.','31-12-2030',3,1),
+(501878000100000002,'OroVeta C.A.','31-12-2030',3,2),
+(501878000100000003,'PiedraBrillante C.A.','31-12-2030',3,3),
+(501878000100000004,'PlataMontaña C.A.','31-12-2030',3,4),
+(501878000100000005,'CobreProfundo C.A.','31-12-2030',3,5),
+(501878000100000006,'MineralesRicos C.A.','31-12-2030',3,6),
+(501878000100000007,'DiamanteExplora C.A.','31-12-2030',3,7),
+(501878000100000008,'TitanioMinero C.A.','31-12-2030',3,8),
+(501878000100000009,'CarbónNegro C.A.','31-12-2030',3,9),
+(501878000100000010,'HierroForja C.A.','31-12-2030',3,10),
+(501878000100000011,'ZafiroMinas C.A.','31-12-2030',3,11),
+(501878000100000012,'EsmeraldaExcava C.A.','31-12-2030',3,12),
+(501878000100000013,'RubíSubterráneo C.A.','31-12-2030',3,13),
+(501878000100000014,'JadeMineral C.A.','31-12-2030',3,14),
+(501878000100000015,'TopacioOro C.A.','31-12-2030',3,15),
+(501878000100000016,'AmatistaMina C.A.','31-12-2030',3,16),
+(501878000100000017,'PerlaMinera C.A.','31-12-2030',3,17),
+(501878000100000018,'CuarzoCristal C.A.','31-12-2030',3,18),
+(501878000100000019,'GranitoRoca C.A.','31-12-2030',3,19),
+(501878000100000020,'CalcitaMineral C.A.','31-12-2030',3,20),
+(501878000100000021,'AzufreVolcán C.A.','31-12-2030',3,21),
+(501878000100000022,'PlomoMinas C.A.','31-12-2030',3,22),
+(501878000100000023,'ZincExtracción C.A.','31-12-2030',3,23),
+(501878000100000024,'NíquelSubsuelo C.A.','31-12-2030',3,24),
+(501878000100000025,'MicaMineral C.A.','31-12-2030',3,25),
+(501878000100000026,'FeldespatoMina C.A.','31-12-2030',3,26),
+(501878000100000027,'BaritaMinera C.A.','31-12-2030',3,27),
+(501878000100000028,'TalcoExcavación C.A.','31-12-2030',3,28),
+(501878000100000029,'PiritaOro C.A.','31-12-2030',3,29),
+(501878000100000030,'GalenaMineral C.A.','31-12-2030',3,30),
+(501878000100000031,'CVG Industria Venezolana de Aluminio C.A.','31-12-2030',3,31),
+(501878000100000032,'CVG BAUXILUM, C.A.','31-12-2030',3,32),
+(501878000100000033,'CVG Minerven C.A.','31-12-2030',3,33),
+(501878000100000034,'CVG Carbones del Orinoco, C.A.','31-12-2030',3,34),
+(501878000100000035,'YesoExcava C.A.','31-12-2030',3,35),
+(501878000100000036,'FluoritaMinas C.A.','31-12-2030',3,36),
+(501878000100000037,'CromitaSubterráneo C.A.','31-12-2030',3,37),
+(501878000100000038,'BentonitaMina C.A.','31-12-2030',3,38),
+(501878000100000039,'DolomitaMineral C.A.','31-12-2030',3,39),
+(501878000100000040,'HalitaSal C.A.','31-12-2030',3,40),
+(501878000100000041,'GipsitaMinera C.A.','31-12-2030',3,41),
+(501878000100000042,'OlivinoMinas C.A.','31-12-2030',3,42),
+(501878000100000043,'SerpentinaRoca C.A.','31-12-2030',3,43),
+(501878000100000044,'SulfuroMineral C.A.','31-12-2030',3,44),
+(501878000100000045,'SilicatoExcavación C.A.','31-12-2030',3,45),
+(501878000100000046,'TungstenoMinero C.A.','31-12-2030',3,46),
+(501878000100000047,'VanadioSubsuelo C.A.','31-12-2030',3,47),
+(501878000100000048,'WolframitaMineral C.A.','31-12-2030',3,48),
+(501878000100000049,'TitanitaOro C.A.','31-12-2030',3,49),
+(501878000100000050,'RutiloMinas C.A.','31-12-2030',3,50),
+(501878000100000051,'CirconioRoca C.A.','31-12-2030',3,51),
+(501878000100000052,'BerilioMineral C.A.','31-12-2030',3,52),
+(501878000100000053,'AntimonioExcava C.A.','31-12-2030',3,53),
+(501878000100000054,'TalcoMinera C.A.','31-12-2030',3,54),
+(501878000100000055,'GrafitoMineral C.A.','31-12-2030',3,55),
+(501878000100000056,'LapislázuliMina C.A.','31-12-2030',3,56),
+(501878000100000057,'TurquesaSubterráneo C.A.','31-12-2030',3,57),
+(501878000100000058,'RodocrositaMinas C.A.','31-12-2030',3,58),
+(501878000100000059,'SelenitaRoca C.A.','31-12-2030',3,59),
+(501878000100000060,'ApatitaMineral C.A.','31-12-2030',3,60),
+(501878000100000061,'CalcopiritaMinera C.A.','31-12-2030',3,61),
+(501878000100000062,'BornitaOro C.A.','31-12-2030',3,62),
+(501878000100000063,'CovellinaMinas C.A.','31-12-2030',3,63),
+(501878000100000064,'EspodumenoMineral C.A.','31-12-2030',3,64),
+(501878000100000065,'GalenaPlata C.A.','31-12-2030',3,65),
+(501878000100000066,'HalitaMinera C.A.','31-12-2030',3,66),
+(501878000100000067,'IolitaRoca C.A.','31-12-2030',3,67),
+(501878000100000068,'JaspeMineral C.A.','31-12-2030',3,68),
+(501878000100000069,'KyanitaExcavación C.A.','31-12-2030',3,69),
+(501878000100000070,'LabradoritaMinas C.A.','31-12-2030',3,70),
+(501878000100000071,'MalaquitaSubsuelo C.A.','31-12-2030',3,71),
+(501878000100000072,'NefelinaMineral C.A.','31-12-2030',3,72),
+(501878000100000073,'ObsidianaOro C.A.','31-12-2030',3,73),
+(501878000100000074,'PiritaMinas C.A.','31-12-2030',3,74),
+(501878000100000075,'QuebrachoRoca C.A.','31-12-2030',3,75),
+(501878000100000076,'RutiloMineral C.A.','31-12-2030',3,76),
+(501878000100000077,'SideritaMinera C.A.','31-12-2030',3,77),
+(501878000100000078,'TalcoExcava C.A.','31-12-2030',3,78),
+(501878000100000079,'UvarovitaMinas C.A.','31-12-2030',3,79),
+(501878000100000080,'VesuvianitaSubterráneo C.A.','31-12-2030',3,80),
+(501878000100000081,'WollastonitaRoca C.A.','31-12-2030',3,81),
+(501878000100000082,'XenotimaMineral C.A.','31-12-2030',3,82),
+(501878000100000083,'YacimientosOro C.A.','31-12-2030',3,83),
+(501878000100000084,'ZoisitaMinas C.A.','31-12-2030',3,84),
+(501878000100000085,'AlunitaMineral C.A.','31-12-2030',3,85),
+(501878000100000086,'BiotitaExcavación C.A.','31-12-2030',3,86),
+(501878000100000087,'CianitaMinera C.A.','31-12-2030',3,87),
+(501878000100000088,'DravitaOro C.A.','31-12-2030',3,88),
+(501878000100000089,'EpidotaMinas C.A.','31-12-2030',3,89),
+(501878000100000090,'FlogopitaSubsuelo C.A.','31-12-2030',3,90),
+(501878000100000091,'GranateRoca C.A.','31-12-2030',3,91),
+(501878000100000092,'HessonitaMineral C.A.','31-12-2030',3,92),
+(501878000100000093,'IlmenitaMinas C.A.','31-12-2030',3,93),
+(501878000100000094,'JaspilitaMineral C.A.','31-12-2030',3,94),
+(501878000100000095,'KainitaExcava C.A.','31-12-2030',3,95),
+(501878000100000096,'LepidolitaMinera C.A.','31-12-2030',3,96),
+(501878000100000097,'MargaritaOro C.A.','31-12-2030',3,97),
+(501878000100000098,'NatrolitaMinas C.A.','31-12-2030',3,98),
+(501878000100000099,'OligistoSubsuelo C.A.','31-12-2030',3,99),
+(501878000100000100,'PirolusitaRoca C.A.','31-12-2030',3,100),
+(501878000100000101,'QuebrachoMineral C.A.','31-12-2030',3,101),
+(501878000100000102,'RodonitaMinas C.A.','31-12-2030',3,102),
+(501878000100000103,'SerpentinaExcavación C.A.','31-12-2030',3,103),
+(501878000100000104,'TurmalinaMinera C.A.','31-12-2030',3,104),
+(501878000100000105,'UlexitaMineral C.A.','31-12-2030',3,105),
+(501878000100000106,'VanadinitaOro C.A.','31-12-2030',3,106),
+(501878000100000107,'WolframitaMinas C.A.','31-12-2030',3,107),
+(501878000100000108,'XilosaSubsuelo C.A.','31-12-2030',3,108),
+(501878000100000109,'YacimientosRoca C.A.','31-12-2030',3,109),
+(501878000100000110,'ZircónMineral C.A.','31-12-2030',3,110),
+(501878000100000111,'AlunitaMinera C.A.','31-12-2030',3,111),
+(501878000100000112,'BiotitaExcavación C.A.','31-12-2030',3,112),
+(501878000100000113,'CianitaMinera C.A.','31-12-2030',3,113),
+(501878000100000114,'DravitaOro C.A.','31-12-2030',3,114),
+(501878000100000115,'EpidotaMinas C.A.','31-12-2030',3,115),
+(501878000100000116,'FlogopitaSubsuelo C.A.','31-12-2030',3,116),
+(501878000100000117,'GranateRoca C.A.','31-12-2030',3,117),
+(501878000100000118,'HessonitaMineral C.A.','31-12-2030',3,118),
+(501878000100000119,'IlmenitaMinas C.A.','31-12-2030',3,119),
+(501878000100000120,'JaspilitaMineral C.A.','31-12-2030',3,120),
+(501878000100000121,'KainitaExcava C.A.','31-12-2030',3,121),
+(501878000100000122,'LepidolitaMinera C.A.','31-12-2030',3,122),
+(501878000100000123,'MargaritaOro C.A.','31-12-2030',3,123),
+(501878000100000124,'NatrolitaMinas C.A.','31-12-2030',3,124),
+(501878000100000125,'Oligisto C.A.','31-12-2030',3,125),
+(501878000100000126,'Pirol C.A.','31-12-2030',3,126),
+(501878000100000127,'CuarzoDorado C.A.','31-12-2030',3,127),
+(501878000100000128,'PlataEstrella C.A.','31-12-2030',3,128),
+(501878000100000129,'TitanioSubterráneo C.A.','31-12-2030',3,129),
+(501878000100000130,'EsmeraldaMineral C.A.','31-12-2030',3,130),
+(501878000100000131,'RubíExcava C.A.','31-12-2030',3,131),
+(501878000100000132,'JadeRoca C.A.','31-12-2030',3,132),
+(501878000100000133,'TopacioOro C.A.','31-12-2030',3,133),
+(501878000100000134,'AmatistaProfunda C.A.','31-12-2030',3,134),
+(501878000100000135,'PerlaMinera C.A.','31-12-2030',3,135),
+(501878000100000136,'GranitoBrillante C.A.','31-12-2030',3,136),
+(501878000100000137,'CalcitaExplora C.A.','31-12-2030',3,137),
+(501878000100000138,'AzufreMontaña C.A.','31-12-2030',3,138),
+(501878000100000139,'ZincCristal C.A.','31-12-2030',3,139),
+(501878000100000140,'NíquelForja C.A.','31-12-2030',3,140),
+(501878000100000141,'MicaSubsuelo C.A.','31-12-2030',3,141),
+(501878000100000142,'FeldespatoRico C.A.','31-12-2030',3,142),
+(501878000100000143,'BaritaMineral C.A.','31-12-2030',3,143),
+(501878000100000144,'TalcoBrillante C.A.','31-12-2030',3,144);
+
 INSERT INTO "public"."el_departamento"("numero","nombre","descripcion") 
 VALUES(1,E'Exploracion',E'EZCRRWEIYIXJXHBEKQDHAHJEZOLUKDTLVWOYTNXGKTZSXIOVBXOAEJGRRKGLIFKSFQA\r\n\r\nIIQTSMNSLMKBZWAQRLFQA\r\nSN');
 INSERT INTO "public"."el_departamento"("numero","nombre","descripcion") 
@@ -1850,6 +2004,206 @@ CALL EP_CREAR_EMPLEADO('0000000037','Larry',NULL,'Torres',NULL,'M',8000,35,'01-0
 CALL EP_CREAR_EMPLEADO('0000000038','Justin',NULL,'Nguyen',NULL,'M',8000,39,'01-01-1990','01-01-2024');
 CALL EP_CREAR_EMPLEADO('0000000039','Scott',NULL,'Hill',NULL,'M',8000,43,'01-01-1990','01-01-2024');
 CALL EP_CREAR_EMPLEADO('0000000040','Brandon',NULL,'Flores',NULL,'M',8000,47,'01-01-1990','01-01-2024');
+
+INSERT INTO MX_MINERAL(CODIGO, NOMBRE, KG_HABIDOS, METALICO) VALUES
+(1,'Hierro',100000,TRUE),
+(2,'Bauxita',100000,TRUE),
+(3,'Oro',100000,TRUE),
+(4,'Carbón',100000,FALSE),
+(5,'Diamante',100000,FALSE),
+(6,'Manganeso',100000,TRUE),
+(7,'Níquel',100000,TRUE),
+(8,'Cobre',100000,TRUE),
+(9,'Mercurio',100000,TRUE),
+(10,'Plomo',100000,TRUE),
+(11,'Plata',100000,TRUE),
+(12,'Bario',100000,TRUE),
+(13,'Calcio',100000,TRUE),
+(14,'Caolín',100000,FALSE),
+(15,'Calizas',100000,FALSE),
+(16,'Pirita',100000,FALSE),
+(17,'Talco',100000,FALSE),
+(18,'Zinc',100000,TRUE),
+(19,'Cianita',100000,FALSE),
+(20,'Dolomita',100000,FALSE),
+(21,'Titanio',100000,TRUE),
+(22,'Tungsteno',100000,TRUE),
+(23,'Magnesio',100000,TRUE),
+(24,'Arena',100000,FALSE),
+(25,'Cal',100000,FALSE),
+(26,'Caliza',100000,FALSE),
+(27,'Granito',100000,FALSE),
+(28,'Yeso',100000,FALSE),
+(29,'Arcilla',100000,FALSE),
+(30,'Azufre',100000,FALSE),
+(31,'Baritina',100000,FALSE),
+(32,'Bentonita',100000,FALSE),
+(33,'Mica',100000,FALSE),
+(34,'Sal común',100000,FALSE);
+
+INSERT INTO MH_YACIMIENTO(ID, NOMBRE, TIPO, MINERAL_CODIGO, LUGAR_ID) VALUES
+(1,'Cerro Bolívar','AU',1,87),
+(2,'El Pao','AU',1,422),
+(3,'San Isidro','AU',1,601),
+(4,'Upata','AU',2,597),
+(5,'Nuria','AU',2,7),
+(6,'Serranía de los Guaicas','AU',2,7),
+(7,'Sur de Gran Sabana','AU',2,7),
+(8,'Los Pijiguaros','AU',2,7),
+(9,'Zona aurífera de Tumeremo','AU',3,602),
+(10,'Zona aurífera de El Callao','AU',3,583),
+(11,'Zona aurífera de El Dorado','AU',3,7),
+(12,'Zona aurífera de El Manteco','AU',3,7),
+(13,'Naricual','AU',4,395),
+(14,'Capiricual','AU',4,3),
+(15,'Sabana Grande','AU',4,13),
+(16,'Taguay','AU',4,13),
+(17,'Cachirí','AU',4,25),
+(18,'Carrasquero','AU',4,25),
+(19,'Socuy','AU',4,25),
+(20,'Inciarte','AU',4,25),
+(21,'Guasare','AU',4,25),
+(22,'Lobatera','AU',4,1245),
+(23,'Paragua','AU',5,87),
+(24,'Icabarú','AU',5,585),
+(25,'Paraytepuy','AU',5,7),
+(26,'Urimán','AU',5,92),
+(27,'Sierra de Imataca','AU',6,7),
+(28,'Sierra de Santa Sofía','AU',6,7),
+(29,'Sierra de Santa María','AU',6,7),
+(30,'Sierra de San Martín','AU',6,7),
+(31,'Loma de Hierro','AU',7,5),
+(32,'Tinaquillo','AU',7,9),
+(33,'Tucupido','AU',7,13),
+(34,'Valencia','AU',7,8),
+(35,'Las Tapias','AU',8,961),
+(36,'Minas de Aroa','AU',8,24),
+(37,'Caño El Tigre','AU',8,25),
+(38,'San Miguel','AU',8,23),
+(39,'Seboruco','AU',8,22),
+(40,'Cerro Mono','AU',8,22);
+
+INSERT INTO MH_POZO(YACIMIENTO_ID, ID, NOMBRE, TIPO, PROFUNDIDAD, AREA) VALUES
+(1,1,'Pozo 1','Vertical',100,9),
+(1,2,'Pozo 2','Vertical',90,9),
+(1,3,'Pozo 3','Inclinado',70,16),
+(2,1,'Pozo 1','Vertical',100,9),
+(2,2,'Pozo 2','Vertical',90,9),
+(2,3,'Pozo 3','Inclinado',70,16),
+(3,1,'Pozo 1','Vertical',100,9),
+(3,2,'Pozo 2','Vertical',90,9),
+(3,3,'Pozo 3','Inclinado',70,16),
+(4,1,'Pozo 1','Vertical',100,9),
+(4,2,'Pozo 2','Vertical',90,9),
+(4,3,'Pozo 3','Inclinado',70,16),
+(5,1,'Pozo 1','Vertical',100,9),
+(5,2,'Pozo 2','Vertical',90,9),
+(5,3,'Pozo 3','Inclinado',70,16),
+(6,1,'Pozo 1','Vertical',100,9),
+(6,2,'Pozo 2','Vertical',90,9),
+(6,3,'Pozo 3','Inclinado',70,16),
+(7,1,'Pozo 1','Vertical',100,9),
+(7,2,'Pozo 2','Vertical',90,9),
+(7,3,'Pozo 3','Inclinado',70,16),
+(8,1,'Pozo 1','Vertical',100,9),
+(8,2,'Pozo 2','Vertical',90,9),
+(8,3,'Pozo 3','Inclinado',70,16),
+(9,1,'Pozo 1','Vertical',100,9),
+(9,2,'Pozo 2','Vertical',90,9),
+(9,3,'Pozo 3','Inclinado',70,16),
+(10,1,'Pozo 1','Vertical',100,9),
+(10,2,'Pozo 2','Vertical',90,9),
+(10,3,'Pozo 3','Inclinado',70,16),
+(11,1,'Pozo 1','Vertical',100,9),
+(11,2,'Pozo 2','Vertical',90,9),
+(11,3,'Pozo 3','Inclinado',70,16),
+(12,1,'Pozo 1','Vertical',100,9),
+(12,2,'Pozo 2','Vertical',90,9),
+(12,3,'Pozo 3','Inclinado',70,16),
+(13,1,'Pozo 1','Vertical',100,9),
+(13,2,'Pozo 2','Vertical',90,9),
+(13,3,'Pozo 3','Inclinado',70,16),
+(14,1,'Pozo 1','Vertical',100,9),
+(14,2,'Pozo 2','Vertical',90,9),
+(14,3,'Pozo 3','Inclinado',70,16),
+(15,1,'Pozo 1','Vertical',100,9),
+(15,2,'Pozo 2','Vertical',90,9),
+(15,3,'Pozo 3','Inclinado',70,16),
+(16,1,'Pozo 1','Vertical',100,9),
+(16,2,'Pozo 2','Vertical',90,9),
+(16,3,'Pozo 3','Inclinado',70,16),
+(17,1,'Pozo 1','Vertical',100,9),
+(17,2,'Pozo 2','Vertical',90,9),
+(17,3,'Pozo 3','Inclinado',70,16),
+(18,1,'Pozo 1','Vertical',100,9),
+(18,2,'Pozo 2','Vertical',90,9),
+(18,3,'Pozo 3','Inclinado',70,16),
+(19,1,'Pozo 1','Vertical',100,9),
+(19,2,'Pozo 2','Vertical',90,9),
+(19,3,'Pozo 3','Inclinado',70,16),
+(20,1,'Pozo 1','Vertical',100,9),
+(20,2,'Pozo 2','Vertical',90,9),
+(20,3,'Pozo 3','Inclinado',70,16),
+(21,1,'Pozo 1','Vertical',100,9),
+(21,2,'Pozo 2','Vertical',90,9),
+(21,3,'Pozo 3','Inclinado',70,16),
+(22,1,'Pozo 1','Vertical',100,9),
+(22,2,'Pozo 2','Vertical',90,9),
+(22,3,'Pozo 3','Inclinado',70,16),
+(23,1,'Pozo 1','Vertical',100,9),
+(23,2,'Pozo 2','Vertical',90,9),
+(23,3,'Pozo 3','Inclinado',70,16),
+(24,1,'Pozo 1','Vertical',100,9),
+(24,2,'Pozo 2','Vertical',90,9),
+(24,3,'Pozo 3','Inclinado',70,16),
+(25,1,'Pozo 1','Vertical',100,9),
+(25,2,'Pozo 2','Vertical',90,9),
+(25,3,'Pozo 3','Inclinado',70,16),
+(26,1,'Pozo 1','Vertical',100,9),
+(26,2,'Pozo 2','Vertical',90,9),
+(26,3,'Pozo 3','Inclinado',70,16),
+(27,1,'Pozo 1','Vertical',100,9),
+(27,2,'Pozo 2','Vertical',90,9),
+(27,3,'Pozo 3','Inclinado',70,16),
+(28,1,'Pozo 1','Vertical',100,9),
+(28,2,'Pozo 2','Vertical',90,9),
+(28,3,'Pozo 3','Inclinado',70,16),
+(29,1,'Pozo 1','Vertical',100,9),
+(29,2,'Pozo 2','Vertical',90,9),
+(29,3,'Pozo 3','Inclinado',70,16),
+(30,1,'Pozo 1','Vertical',100,9),
+(30,2,'Pozo 2','Vertical',90,9),
+(30,3,'Pozo 3','Inclinado',70,16),
+(31,1,'Pozo 1','Vertical',100,9),
+(31,2,'Pozo 2','Vertical',90,9),
+(31,3,'Pozo 3','Inclinado',70,16),
+(32,1,'Pozo 1','Vertical',100,9),
+(32,2,'Pozo 2','Vertical',90,9),
+(32,3,'Pozo 3','Inclinado',70,16),
+(33,1,'Pozo 1','Vertical',100,9),
+(33,2,'Pozo 2','Vertical',90,9),
+(33,3,'Pozo 3','Inclinado',70,16),
+(34,1,'Pozo 1','Vertical',100,9),
+(34,2,'Pozo 2','Vertical',90,9),
+(34,3,'Pozo 3','Inclinado',70,16),
+(35,1,'Pozo 1','Vertical',100,9),
+(35,2,'Pozo 2','Vertical',90,9),
+(35,3,'Pozo 3','Inclinado',70,16),
+(36,1,'Pozo 1','Vertical',100,9),
+(36,2,'Pozo 2','Vertical',90,9),
+(36,3,'Pozo 3','Inclinado',70,16),
+(37,1,'Pozo 1','Vertical',100,9),
+(37,2,'Pozo 2','Vertical',90,9),
+(37,3,'Pozo 3','Inclinado',70,16),
+(38,1,'Pozo 1','Vertical',100,9),
+(38,2,'Pozo 2','Vertical',90,9),
+(38,3,'Pozo 3','Inclinado',70,16),
+(39,1,'Pozo 1','Vertical',100,9),
+(39,2,'Pozo 2','Vertical',90,9),
+(39,3,'Pozo 3','Inclinado',70,16),
+(40,1,'Pozo 1','Vertical',100,9),
+(40,2,'Pozo 2','Vertical',90,9),
+(40,3,'Pozo 3','Inclinado',70,16);
 
 INSERT INTO MX_MAQUINARIA(ID, NOMBRE, DESCRIPCION, CANTIDAD, EMPRESA_RIF) VALUES
 (1,'Taladro neumático','Taladros neumáticos a disposición de la empresa',4,5),
@@ -2832,3 +3186,111 @@ INSERT INTO MX_MAQUINARIA(ID, NOMBRE, DESCRIPCION, CANTIDAD, EMPRESA_RIF) VALUES
 (978,'Camión plataforma','Camiones plataforma a disposición de la empresa',2,NULL),
 (979,'Camión grúa','Camiones grúa a disposición de la empresa',2,NULL),
 (980,'Camión bombero','Camiones bombero a disposición de la empresa',2,NULL);
+
+INSERT INTO TL_CUENTA(CODIGO, NOMBRE, CATEGORIA) VALUES
+(1,'Efectivo','ACTIVO'),
+(2,'Banco','ACTIVO'),
+(3,'Caja chica','ACTIVO'),
+(4,'Cuentas por cobrar','ACTIVO'),
+(5,'IVA crédito fiscal','ACTIVO'),
+(6,'Cuentas por pagar','PASIVO'),
+(7,'Impuestos por pagar','PASIVO'),
+(8,'IVA débito fiscal','PASIVO'),
+(9,'Capital social','CAPITAL'),
+(10,'Compras de mercancías','EGRESO'),
+(11,'Compras de maquinaria','EGRESO'),
+(12,'Ventas de mercancías','INGRESO'),
+(13,'Ventas de maquinaria','INGRESO');
+
+CALL SP_COMPRAR_MINERALES(5,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',TRUE);
+CALL SP_COMPRAR_MINERALES(6,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',FALSE);
+CALL SP_COMPRAR_MINERALES(11,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',TRUE);
+CALL SP_COMPRAR_MINERALES(12,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',FALSE);
+CALL SP_COMPRAR_MINERALES(17,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',TRUE);
+CALL SP_COMPRAR_MINERALES(18,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',FALSE);
+CALL SP_COMPRAR_MINERALES(23,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',TRUE);
+CALL SP_COMPRAR_MINERALES(24,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',FALSE);
+CALL SP_COMPRAR_MINERALES(29,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',TRUE);
+CALL SP_COMPRAR_MINERALES(30,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',FALSE);
+CALL SP_COMPRAR_MINERALES(35,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',TRUE);
+CALL SP_COMPRAR_MINERALES(36,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',FALSE);
+CALL SP_COMPRAR_MINERALES(41,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',TRUE);
+CALL SP_COMPRAR_MINERALES(42,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',FALSE);
+CALL SP_COMPRAR_MINERALES(47,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',TRUE);
+CALL SP_COMPRAR_MINERALES(48,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',FALSE);
+CALL SP_COMPRAR_MINERALES(53,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',TRUE);
+CALL SP_COMPRAR_MINERALES(54,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',FALSE);
+CALL SP_COMPRAR_MINERALES(59,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',TRUE);
+CALL SP_COMPRAR_MINERALES(60,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',FALSE);
+CALL SP_COMPRAR_MINERALES(65,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',TRUE);
+CALL SP_COMPRAR_MINERALES(66,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',FALSE);
+CALL SP_COMPRAR_MINERALES(71,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',TRUE);
+CALL SP_COMPRAR_MINERALES(72,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',FALSE);
+CALL SP_COMPRAR_MINERALES(77,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',TRUE);
+CALL SP_COMPRAR_MINERALES(78,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',FALSE);
+CALL SP_COMPRAR_MINERALES(83,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',TRUE);
+CALL SP_COMPRAR_MINERALES(84,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',FALSE);
+CALL SP_COMPRAR_MINERALES(89,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',TRUE);
+CALL SP_COMPRAR_MINERALES(90,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',FALSE);
+CALL SP_COMPRAR_MINERALES(95,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',TRUE);
+CALL SP_COMPRAR_MINERALES(96,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',FALSE);
+CALL SP_COMPRAR_MINERALES(101,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',TRUE);
+CALL SP_COMPRAR_MINERALES(102,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',FALSE);
+CALL SP_COMPRAR_MINERALES(107,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',TRUE);
+CALL SP_COMPRAR_MINERALES(108,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',FALSE);
+CALL SP_COMPRAR_MINERALES(113,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',TRUE);
+CALL SP_COMPRAR_MINERALES(114,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',FALSE);
+CALL SP_COMPRAR_MINERALES(119,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',TRUE);
+CALL SP_COMPRAR_MINERALES(120,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',FALSE);
+CALL SP_COMPRAR_MINERALES(125,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',TRUE);
+CALL SP_COMPRAR_MINERALES(126,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',FALSE);
+CALL SP_COMPRAR_MINERALES(131,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',TRUE);
+CALL SP_COMPRAR_MINERALES(132,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',FALSE);
+CALL SP_COMPRAR_MINERALES(137,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',TRUE);
+CALL SP_COMPRAR_MINERALES(138,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',FALSE);
+CALL SP_COMPRAR_MINERALES(143,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',TRUE);
+CALL SP_COMPRAR_MINERALES(144,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',FALSE);
+CALL SP_COMPRAR_MINERALES(5,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',TRUE);
+CALL SP_COMPRAR_MINERALES(6,'{1,2,3,4}','{15, 14, 27, 10}','{1000, 2000, 500, 50000}',FALSE);
+
+INSERT INTO PL_ROL(CODIGO, NOMBRE, DESCRIPCION) VALUES
+(1,'Jefe de proyecto','Líder general del proyecto'),
+(2,'Coordinador general','Subjefe del proyecto'),
+(3,'Supervisor de campo','Supervisor del proyecto'),
+(4,'Consultor','Consultor del proyecto'),
+(5,'Geólogo','Especialista en geología del proyecto'),
+(6,'Geólogo supervisor','Supervisor de geólogos del proyecto'),
+(7,'Geólogo analista','Geólogos analistas del proyecto'),
+(8,'Ayudante de campaña','Ayudante de campaña del proyecto'),
+(9,'Chofer','Chofer del proyecto'),
+(10,'Muestrero','Muestrero del proyecto'),
+(11,'Portamiras','Portamiras del proyecto'),
+(12,'Cocineros','Cocineros del proyecto'),
+(13,'Técnico supervisor','Técnico supervisor del proyecto'),
+(14,'Perforista','Perforista del proyecto'),
+(15,'Ayudante','Ayudante para la perforación del proyecto');
+
+CALL PP_CREAR_PROYECTO('Proyecto 1',1,'01-01-2024','31-12-2024');
+CALL PP_CREAR_PROYECTO('Proyecto 2',1,'01-01-2024','31-12-2024');
+CALL PP_CREAR_PROYECTO('Proyecto 3',1,'01-01-2024','31-12-2024');
+CALL PP_CREAR_PROYECTO('Proyecto 4',2,'01-01-2024','31-12-2024');
+CALL PP_CREAR_PROYECTO('Proyecto 5',2,'01-01-2024','31-12-2024');
+CALL PP_CREAR_PROYECTO('Proyecto 6',2,'01-01-2024','31-12-2024');
+CALL PP_CREAR_PROYECTO('Proyecto 7',3,'01-01-2024','31-12-2024');
+CALL PP_CREAR_PROYECTO('Proyecto 8',3,'01-01-2024','31-12-2024');
+CALL PP_CREAR_PROYECTO('Proyecto 9',3,'01-01-2024','31-12-2024');
+CALL PP_CREAR_PROYECTO('Proyecto 10',4,'01-01-2024','31-12-2024');
+CALL PP_CREAR_PROYECTO('Proyecto 11',4,'01-01-2024','31-12-2024');
+CALL PP_CREAR_PROYECTO('Proyecto 12',4,'01-01-2024','31-12-2024');
+CALL PP_CREAR_PROYECTO('Proyecto 13',5,'01-01-2024','31-12-2024');
+CALL PP_CREAR_PROYECTO('Proyecto 14',5,'01-01-2024','31-12-2024');
+CALL PP_CREAR_PROYECTO('Proyecto 15',5,'01-01-2024','31-12-2024');
+CALL PP_CREAR_PROYECTO('Proyecto 16',6,'01-01-2024','31-12-2024');
+CALL PP_CREAR_PROYECTO('Proyecto 17',6,'01-01-2024','31-12-2024');
+CALL PP_CREAR_PROYECTO('Proyecto 18',6,'01-01-2024','31-12-2024');
+CALL PP_CREAR_PROYECTO('Proyecto 19',7,'01-01-2024','31-12-2024');
+CALL PP_CREAR_PROYECTO('Proyecto 20',7,'01-01-2024','31-12-2024');
+CALL PP_CREAR_PROYECTO('Proyecto 21',7,'01-01-2024','31-12-2024');
+CALL PP_CREAR_PROYECTO('Proyecto 22',8,'01-01-2024','31-12-2024');
+CALL PP_CREAR_PROYECTO('Proyecto 23',8,'01-01-2024','31-12-2024');
+CALL PP_CREAR_PROYECTO('Proyecto 24',8,'01-01-2024','31-12-2024');
